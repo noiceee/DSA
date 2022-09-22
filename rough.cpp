@@ -23,4 +23,9 @@ int main(){
     // }
     // char c = 'a';
     // cout<<(char)(c+1);
+    int a = 1;
+    int b = a++;
+    int c = ++a;
+    cout << b;
+    cout << a;
 }
